@@ -17,7 +17,7 @@ function Container(props) {
       </header>
       {props.children}
     </div>
-  )
+  );
 }
 
 export default Container
