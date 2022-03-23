@@ -19,4 +19,16 @@
   opacity: 0.2;
   z-index: -1;
 }
-.home
+.home > * { 
+  margin: 40px 0;
+}
+.home h1{
+  text-align: center;
+  margin: 0;
+  font-size: 2rem;
+}
+.home a{
+  background-color: #c92a2a;
+  border-radius: 5rem;
+  padding: 12px;
+}
