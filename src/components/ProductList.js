@@ -1,5 +1,5 @@
 import '../style/ProductList.css'
-import Product from './product';
+import Product from './Product';
 import { Link } from 'react-router-dom'
 function ProductList(props) {
   const { products} = props;
