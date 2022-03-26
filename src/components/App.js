@@ -1,4 +1,4 @@
-import { Switch, Route } from 'react-router'
+import { Routes,Route } from 'react-router'
 import Home from '../routes/home'
 import Shop from '../routes/Shop'
 import ProductDetail from '../routes/ProductDetail'
@@ -56,7 +56,7 @@ function App() {
   console.log(cartLength);
   return (
     <div className="app">
-      <Switch>
+      <Routes>
         <Route path="/shop">
           <Container quantity={cartLength}>
             <Shop products={products}/>
@@ -85,7 +85,7 @@ function App() {
             <Home/>
           </Container>
         </Route>
-      </Switch>
+      </Routes>
     </div>
   );
 }
